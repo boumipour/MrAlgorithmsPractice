@@ -40,16 +40,38 @@ public class ArrayRemove
     /// <returns>return the number of unique elements k. The remaining elements beyond index k - 1 can be ignored</returns>
     public int RemoveDuplicateFromSortedArray(int[] nums)
     {
-        int k=0;
-        for(int i=1; i< nums.Length;i++)
+        int k = 0;
+        for (int i = 1; i < nums.Length; i++)
         {
-            if(nums[k]==nums[i])
+            if (nums[k] == nums[i])
                 continue;
             else
-             nums[++k]=nums[i];
-            
+                nums[++k] = nums[i];
+
         }
-        
-        return k+1;
+
+        return k + 1;
     }
+
+
+    /// <summary>
+    /// Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. The relative order of the elements should be kept the same.
+    /// Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
+    /// Return k after placing the final result in the first k slots of nums.
+    /// </summary>
+    /// <param name="nums">The input array sorted in non-decreasing order</param>
+    /// <returns>return the number of elements after removing duplicates</returns>
+    public int RemoveDuplicateItemsMoreThanTwoFromSortedArray(int[] nums)
+    {
+        int k = 1;
+        for (int i = 2; i < nums.Length; i++)
+        {
+            if (nums[i] != nums[i - 2])
+                k++;
+
+            nums[k] = nums[i];
+        }
+        return k + 1;
+    }
+    
 }
