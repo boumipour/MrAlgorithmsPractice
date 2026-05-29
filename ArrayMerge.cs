@@ -20,7 +20,7 @@ public class ArrayMerge {
     ///The result of the merge is [1].
     ///Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
     /// </summary>
-    public void MergeTwoSortedArrays(int[] nums1, int m, int[] nums2, int n) 
+    public void MergeTwoSortedArrays_88_Simple(int[] nums1, int m, int[] nums2, int n) 
     {
         for(int i=0;i<n; i++)
             nums1[m+i]=nums2[i];

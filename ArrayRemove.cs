@@ -38,7 +38,7 @@ public class ArrayRemove
     /// </summary>
     /// <param name="nums">The input array sorted in non-decreasing order</param>
     /// <returns>return the number of unique elements k. The remaining elements beyond index k - 1 can be ignored</returns>
-    public int RemoveDuplicateFromSortedArray(int[] nums)
+    public int RemoveDuplicateFromSortedArray_26(int[] nums)
     {
         int k = 0;
         for (int i = 1; i < nums.Length; i++)
@@ -61,7 +61,7 @@ public class ArrayRemove
     /// </summary>
     /// <param name="nums">The input array sorted in non-decreasing order</param>
     /// <returns>return the number of elements after removing duplicates</returns>
-    public int RemoveDuplicateItemsMoreThanTwoFromSortedArray(int[] nums)
+    public int RemoveDuplicateItemsMoreThanTwoFromSortedArray_80(int[] nums)
     {
         int k = 1;
         for (int i = 2; i < nums.Length; i++)

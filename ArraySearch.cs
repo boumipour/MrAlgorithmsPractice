@@ -10,9 +10,9 @@ public class ArraySearch
     /// </summary>
     /// <param name="nums"></param>
     /// <returns>Major item</returns>
-    public int MajorityElement(int[] nums)
+    public int MajorityElement_169(int[] nums)
     {
-
+        // Boyer-Moore Voting Algorithm
         int candidate = 0;
         int count = 0;
 
