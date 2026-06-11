@@ -1,4 +1,6 @@
-//stack is LIFO data structure
+namespace Algoritms.DataStructures;
+
+// Stack is a LIFO (last-in, first-out) data structure.
 public class Stack<T>
 {
     private T[] _stack;
