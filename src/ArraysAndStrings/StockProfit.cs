@@ -41,7 +41,7 @@ public class StockProfit
     /// </summary>
     /// <param name="prices">Daily stock prices.</param>
     /// <returns>The maximum achievable profit across multiple transactions.</returns>
-    public int MaxProfit2_122(int[] prices)
+    public int MaxProfi_122(int[] prices)
     {
         int profit = 0;
 

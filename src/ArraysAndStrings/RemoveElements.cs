@@ -57,7 +57,7 @@ public class RemoveElements
     /// </summary>
     /// <param name="nums">The input array sorted in non-decreasing order.</param>
     /// <returns>The number of elements after removing duplicates (k).</returns>
-    public int RemoveDuplicatesII_80(int[] nums)
+    public int RemoveDuplicates_80(int[] nums)
     {
         int k = 1;
         for (int i = 2; i < nums.Length; i++)
