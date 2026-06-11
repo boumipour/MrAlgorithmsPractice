@@ -36,7 +36,7 @@ select **GitHub Actions**.
 
 ## Solutions project
 
-Plain .NET 10 console app (`Algoritms.csproj`); see [CLAUDE.md](CLAUDE.md) for conventions.
+Plain .NET 10 console app (`Algoritms.csproj`);
 
 ```bash
 dotnet build      # build the solutions project
