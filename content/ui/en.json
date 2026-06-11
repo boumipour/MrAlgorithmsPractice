@@ -1,0 +1,21 @@
+{
+  "code": "en",
+  "dir": "ltr",
+  "nativeName": "English",
+  "strings": {
+    "siteTitle": "Algorithms Practice",
+    "tagline": "Annotated C# solutions to LeetCode interview problems, with explanations.",
+    "home": "Home",
+    "solution": "Solution",
+    "copy": "Copy",
+    "viewOnLeetcode": "View on LeetCode",
+    "diff_Easy": "Easy",
+    "diff_Medium": "Medium",
+    "diff_Hard": "Hard",
+    "footer": "Built from C# source with a custom .NET site generator."
+  },
+  "topics": {
+    "ArraysAndStrings": "Arrays & Strings",
+    "DataStructures": "Data Structures"
+  }
+}

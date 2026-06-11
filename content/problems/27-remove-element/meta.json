@@ -1,0 +1,13 @@
+{
+  "leetcode": 27,
+  "leetcodeSlug": "remove-element",
+  "difficulty": "Easy",
+  "tags": ["Array", "Two Pointers"],
+  "sourceFile": "src/ArraysAndStrings/RemoveElements.cs",
+  "methods": ["RemoveElement_27"],
+  "order": 27,
+  "titles": {
+    "en": "Remove Element",
+    "fa": "حذف عنصر"
+  }
+}

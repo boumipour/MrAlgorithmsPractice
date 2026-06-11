@@ -1,0 +1,13 @@
+{
+  "leetcode": 169,
+  "leetcodeSlug": "majority-element",
+  "difficulty": "Easy",
+  "tags": ["Array", "Hash Table", "Counting", "Divide and Conquer"],
+  "sourceFile": "src/ArraysAndStrings/MajorityElement.cs",
+  "methods": ["MajorityElement_169"],
+  "order": 169,
+  "titles": {
+    "en": "Majority Element",
+    "fa": "عنصر اکثریت"
+  }
+}

@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <!-- The site generator and its generated output live in this repo but are not
+       part of the practice console app. Keep them out of the default source glob. -->
+  <ItemGroup>
+    <Compile Remove="tools\**\*.cs" />
+    <Compile Remove="dist\**\*.cs" />
+  </ItemGroup>
+
 </Project>

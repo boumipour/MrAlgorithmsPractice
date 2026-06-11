@@ -1,0 +1,13 @@
+{
+  "leetcode": 26,
+  "leetcodeSlug": "remove-duplicates-from-sorted-array",
+  "difficulty": "Easy",
+  "tags": ["Array", "Two Pointers"],
+  "sourceFile": "src/ArraysAndStrings/RemoveElements.cs",
+  "methods": ["RemoveDuplicates_26"],
+  "order": 26,
+  "titles": {
+    "en": "Remove Duplicates from Sorted Array",
+    "fa": "حذف تکراری‌ها از آرایه‌ی مرتب"
+  }
+}

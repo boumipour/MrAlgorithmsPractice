@@ -1,0 +1,13 @@
+{
+  "leetcode": 88,
+  "leetcodeSlug": "merge-sorted-array",
+  "difficulty": "Easy",
+  "tags": ["Array", "Two Pointers", "Sorting"],
+  "sourceFile": "src/ArraysAndStrings/MergeSortedArray.cs",
+  "methods": ["Merge_88"],
+  "order": 88,
+  "titles": {
+    "en": "Merge Sorted Array",
+    "fa": "ادغام آرایه‌ی مرتب"
+  }
+}

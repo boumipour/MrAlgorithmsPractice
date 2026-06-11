@@ -1,0 +1,13 @@
+{
+  "leetcode": 55,
+  "leetcodeSlug": "jump-game",
+  "difficulty": "Medium",
+  "tags": ["Array", "Greedy", "Dynamic Programming"],
+  "sourceFile": "src/ArraysAndStrings/JumpGame.cs",
+  "methods": ["CanJump_55"],
+  "order": 55,
+  "titles": {
+    "en": "Jump Game",
+    "fa": "بازی پرش"
+  }
+}

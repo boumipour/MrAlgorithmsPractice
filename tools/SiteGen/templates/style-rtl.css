@@ -1,0 +1,16 @@
+/* Right-to-left overrides for Persian (and other RTL languages). */
+:root { font-family: "Vazirmatn", system-ui, sans-serif; }
+
+body { line-height: 1.9; }
+
+.num { font-family: system-ui, sans-serif; }
+
+/* The copy button flips to the opposite corner in RTL. */
+.copy-btn { right: auto; left: 0.55rem; }
+
+/* Code is always left-to-right, even on RTL pages. */
+pre, code, .code-block { direction: ltr; text-align: left; }
+.problem-list a { text-align: start; }
+
+/* Keep Latin technical terms inside prose rendering left-to-right. */
+.description code { direction: ltr; unicode-bidi: embed; }

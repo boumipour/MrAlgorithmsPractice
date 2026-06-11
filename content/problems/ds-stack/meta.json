@@ -1,0 +1,11 @@
+{
+  "difficulty": "",
+  "tags": ["Stack", "Data Structure", "Generics"],
+  "sourceFile": "src/DataStructures/Stack.cs",
+  "methods": [],
+  "order": 1,
+  "titles": {
+    "en": "Stack (LIFO)",
+    "fa": "پشته (LIFO)"
+  }
+}

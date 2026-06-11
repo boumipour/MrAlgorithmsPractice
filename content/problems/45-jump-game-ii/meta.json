@@ -1,0 +1,13 @@
+{
+  "leetcode": 45,
+  "leetcodeSlug": "jump-game-ii",
+  "difficulty": "Medium",
+  "tags": ["Array", "Greedy", "Dynamic Programming"],
+  "sourceFile": "src/ArraysAndStrings/JumpGame.cs",
+  "methods": ["Jump_45"],
+  "order": 45,
+  "titles": {
+    "en": "Jump Game II",
+    "fa": "بازی پرش ۲"
+  }
+}

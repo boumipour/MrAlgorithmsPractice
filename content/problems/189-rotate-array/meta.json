@@ -1,0 +1,13 @@
+{
+  "leetcode": 189,
+  "leetcodeSlug": "rotate-array",
+  "difficulty": "Medium",
+  "tags": ["Array", "Math", "Two Pointers"],
+  "sourceFile": "src/ArraysAndStrings/RotateArray.cs",
+  "methods": ["Rotate_189"],
+  "order": 189,
+  "titles": {
+    "en": "Rotate Array",
+    "fa": "چرخش آرایه"
+  }
+}

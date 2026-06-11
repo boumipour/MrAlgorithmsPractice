@@ -1,0 +1,21 @@
+{
+  "code": "fa",
+  "dir": "rtl",
+  "nativeName": "فارسی",
+  "strings": {
+    "siteTitle": "تمرین الگوریتم‌ها",
+    "tagline": "راه‌حل‌های شرح‌داده‌شده‌ی مسائل مصاحبه‌ی LeetCode به زبان سی‌شارپ.",
+    "home": "خانه",
+    "solution": "راه‌حل",
+    "copy": "کپی",
+    "viewOnLeetcode": "مشاهده در LeetCode",
+    "diff_Easy": "آسان",
+    "diff_Medium": "متوسط",
+    "diff_Hard": "سخت",
+    "footer": "ساخته‌شده از کد سی‌شارپ با یک تولیدکننده‌ی سایت اختصاصی .NET."
+  },
+  "topics": {
+    "ArraysAndStrings": "آرایه‌ها و رشته‌ها",
+    "DataStructures": "ساختمان داده‌ها"
+  }
+}

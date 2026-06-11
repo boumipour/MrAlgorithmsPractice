@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" dir="{{DIR}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  {{RTL_CSS}}
+  {{FONT}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html">{{SITE_TITLE}}</a>
+    <nav class="lang-switch">{{LANG_SWITCH}}</nav>
+  </header>
+
+  <main class="container">
+    {{BODY}}
+  </main>
+
+  <footer class="site-footer">{{FOOTER}}</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/csharp.min.js"></script>
+  <script src="../assets/app.js"></script>
+</body>
+</html>

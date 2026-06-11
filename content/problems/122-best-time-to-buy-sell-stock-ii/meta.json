@@ -1,0 +1,13 @@
+{
+  "leetcode": 122,
+  "leetcodeSlug": "best-time-to-buy-and-sell-stock-ii",
+  "difficulty": "Medium",
+  "tags": ["Array", "Greedy", "Dynamic Programming"],
+  "sourceFile": "src/ArraysAndStrings/StockProfit.cs",
+  "methods": ["MaxProfi_122"],
+  "order": 122,
+  "titles": {
+    "en": "Best Time to Buy and Sell Stock II",
+    "fa": "بهترین زمان خرید و فروش سهام ۲"
+  }
+}

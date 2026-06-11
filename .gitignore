@@ -428,3 +428,6 @@ FodyWeavers.xsd
 *.msm
 *.msp
 CLAUDE.md
+
+# Generated static site (built fresh by the site generator / CI)
+dist/
