@@ -21,3 +21,17 @@ simple version is implemented here.
 
 - **Time:** O((m + n) log(m + n)) as written.
 - **Space:** O(1).
+
+### Explain it to a kid 🧒
+
+Let's merge `nums1 = [1, 2, 3, _, _, _]` (three real kids, three empty spaces) with `nums2 = [2, 5,
+6]`, both already short-to-tall. We fill the **empty back spaces** starting from the tallest.
+
+1. Compare the tallest leftovers: `3` (from nums1) vs `6` (from nums2). `6` is taller → put `6` in
+   the last empty spot → `[1, 2, 3, _, _, 6]`.
+2. Compare `3` vs `5`. `5` is taller → `[1, 2, 3, _, 5, 6]`.
+3. Compare `3` vs `2`. `3` is taller → `[1, 2, _, 3, 5, 6]`.
+4. nums1 has `1, 2` left and nums2 has `2`. Compare `2` vs `2` → drop the `2` from nums2 →
+   `[1, _, 2, 3, 5, 6]`, then `2` from nums1 → `[1, 2, 2, 3, 5, 6]`. Done!
+
+Filling from the back means we never step on a kid we haven't looked at yet.

@@ -19,3 +19,15 @@ value extends the result without creating a third duplicate.
 
 - **Time:** O(n) — one pass.
 - **Space:** O(1) — in place.
+
+### Explain it to a kid 🧒
+
+Let's do `[1, 1, 1, 2, 2, 3]` where you may keep **at most two** of each. The first two toys are
+always allowed, so keep `1, 1` and start checking from the third toy.
+
+1. Third toy `1`: there are already two `1`s kept → this would be a **third** `1`, so **skip** it.
+2. Next `2`: only zero `2`s so far → keep it → `[1, 1, 2, …]`.
+3. Next `2`: only one `2` kept → keep it → `[1, 1, 2, 2, …]`.
+4. Next `3`: keep it → `[1, 1, 2, 2, 3]`.
+
+We kept `1, 1, 2, 2, 3` — the answer is **5**.

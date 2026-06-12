@@ -1,0 +1,13 @@
+{
+  "leetcode": 274,
+  "leetcodeSlug": "h-index",
+  "difficulty": "Medium",
+  "tags": ["Array", "Counting Sort", "Sorting"],
+  "sourceFile": "src/ArraysAndStrings/HIndex.cs",
+  "methods": ["HIndex_274", "HIndex_274_Counting"],
+  "order": 274,
+  "titles": {
+    "en": "H-Index",
+    "fa": "شاخص H"
+  }
+}

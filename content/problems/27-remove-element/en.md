@@ -16,3 +16,15 @@ Everything we keep is packed into the front of the array, and `k` is exactly how
 
 - **Time:** O(n) — one pass.
 - **Space:** O(1) — in place.
+
+### Explain it to a kid 🧒
+
+Let's do the basket `[3, 2, 2, 3]` where `3` means "banana" (you don't want them). Put a "keep spot"
+finger at the very front.
+
+1. Look at `3` — that's a banana, **skip** it (don't move the keep spot).
+2. Look at `2` — keep it! Write it at the keep spot and move the spot right → `[2, …]`.
+3. Look at `2` — keep it! Write and move → `[2, 2, …]`.
+4. Look at `3` — banana, **skip**.
+
+The front holds `2, 2`, so the answer is **2** fruits kept.
