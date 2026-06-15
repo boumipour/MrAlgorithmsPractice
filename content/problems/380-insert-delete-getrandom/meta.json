@@ -1,0 +1,13 @@
+{
+  "leetcode": 380,
+  "leetcodeSlug": "insert-delete-getrandom-o1",
+  "difficulty": "Medium",
+  "tags": ["Hash Table", "Array", "Math", "Design", "Randomized"],
+  "sourceFile": "src/DataStructures/RandomizedSet.cs",
+  "methods": [],
+  "order": 380,
+  "titles": {
+    "en": "Insert Delete GetRandom O(1)",
+    "fa": "درج، حذف و گرفتن تصادفی در O(1)"
+  }
+}
