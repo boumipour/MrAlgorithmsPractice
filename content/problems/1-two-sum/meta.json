@@ -1,0 +1,13 @@
+{
+  "leetcode": 1,
+  "leetcodeSlug": "two-sum",
+  "difficulty": "Easy",
+  "tags": ["Array", "Hash Table"],
+  "sourceFile": "src/ArraysAndStrings/TwoSum.cs",
+  "methods": ["TwoSum_1", "TwoSum_1_HashMap"],
+  "order": 1,
+  "titles": {
+    "en": "Two Sum",
+    "fa": "مجموع دو عدد"
+  }
+}
