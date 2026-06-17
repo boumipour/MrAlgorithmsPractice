@@ -1,0 +1,13 @@
+{
+  "leetcode": 13,
+  "leetcodeSlug": "roman-to-integer",
+  "difficulty": "Easy",
+  "tags": ["Hash Table", "Math", "String"],
+  "sourceFile": "src/ArraysAndStrings/RomanToInteger.cs",
+  "methods": ["RomanToInt_13"],
+  "order": 13,
+  "titles": {
+    "en": "Roman to Integer",
+    "fa": "تبدیل رومی به عدد صحیح"
+  }
+}
