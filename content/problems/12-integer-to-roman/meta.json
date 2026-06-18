@@ -1,0 +1,13 @@
+{
+  "leetcode": 12,
+  "leetcodeSlug": "integer-to-roman",
+  "difficulty": "Medium",
+  "tags": ["Hash Table", "Math", "String"],
+  "sourceFile": "src/ArraysAndStrings/IntegerToRoman.cs",
+  "methods": ["IntToRoman_12", "IntToRoman_12_Greedy"],
+  "order": 12,
+  "titles": {
+    "en": "Integer to Roman",
+    "fa": "تبدیل عدد صحیح به رومی"
+  }
+}
